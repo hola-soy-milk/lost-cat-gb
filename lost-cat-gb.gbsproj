@@ -967,7 +967,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "cat.png",
-            "checksum": "f1c988f035ef952d3879f055bc7f670d73a2e86e",
+            "checksum": "674a0e195215c7b1a97cc5623b01d0b751b2c20d",
             "width": 96,
             "height": 16,
             "states": [
@@ -1079,6 +1079,32 @@
                                             "paletteIndex": 0,
                                             "objPalette": "OBP0",
                                             "priority": false
+                                        },
+                                        {
+                                            "id": "0b2a3832-c35f-43c6-a6d8-6569455b69cc",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "a3202513-8ea3-4e1d-a066-606b264ad9ac",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
                                         }
                                     ]
                                 }
@@ -1151,36 +1177,62 @@
                                             "paletteIndex": 0,
                                             "objPalette": "OBP0",
                                             "priority": false
+                                        },
+                                        {
+                                            "id": "688dc8a5-ce7e-41b2-89da-a16e3bbc6e71",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "53727a8d-00d1-4526-bb3e-eb22531a7cd6",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
                                         }
                                     ]
                                 },
                                 {
-                                    "id": "00859cda-8c02-4f95-b474-975d34f0ca5f",
+                                    "id": "c1e065da-c5fb-44e9-94ea-3e3ac3e15a77",
                                     "tiles": [
                                         {
-                                            "id": "e6470283-8ef3-4a1d-8d38-944d8cdf7c15",
+                                            "id": "bce922a1-529d-4997-a3fa-f5a028d02096",
                                             "x": 0,
                                             "y": 0,
-                                            "sliceX": 64,
+                                            "sliceX": 0,
                                             "sliceY": 0,
+                                            "palette": 0,
                                             "flipX": false,
                                             "flipY": false,
-                                            "palette": 0,
-                                            "paletteIndex": 0,
                                             "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         },
                                         {
-                                            "id": "44958348-e4e1-49c2-ab87-4df6835d3a2b",
+                                            "id": "fcd35ebf-4e8b-4600-a915-06b2dd9e2bee",
                                             "x": 8,
                                             "y": 0,
-                                            "sliceX": 72,
+                                            "sliceX": 8,
                                             "sliceY": 0,
+                                            "palette": 0,
                                             "flipX": false,
                                             "flipY": false,
-                                            "palette": 0,
-                                            "paletteIndex": 0,
                                             "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         }
                                     ]
@@ -1227,6 +1279,32 @@
                                             "paletteIndex": 0,
                                             "objPalette": "OBP0",
                                             "priority": false
+                                        },
+                                        {
+                                            "id": "a0fb1ec7-c09c-485d-8f4f-e7cc92b710eb",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "5e2b74f8-1d46-40da-9dbb-a9356d3bb536",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
                                         }
                                     ]
                                 },
@@ -1257,6 +1335,32 @@
                                             "palette": 0,
                                             "paletteIndex": 0,
                                             "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "9643f5fa-22e4-44f3-9a80-57e3b8a43e59",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "aaa38a48-b3cf-4c29-867b-41599875d607",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         }
                                     ]
@@ -1333,7 +1437,7 @@
                     ]
                 }
             ],
-            "numTiles": 2,
+            "numTiles": 4,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -1723,7 +1827,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 2302,
-        "worldScrollY": 1929,
+        "worldScrollY": 2100,
         "zoom": 800,
         "customColorsEnabled": true,
         "sgbEnabled": false,
