@@ -5,7 +5,7 @@
     "_release": "3",
     "scenes": [
         {
-            "name": "Scene 1",
+            "name": "Town 1",
             "backgroundId": "ef2c4ef8-a5a4-4c9c-bb16-12ab64485f78",
             "width": 60,
             "height": 60,
@@ -3631,11 +3631,11 @@
             "playerSpriteSheetId": "18d9aa23-1f78-4db3-af62-ce42ab1c048e"
         },
         {
-            "name": "Scene 2",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "name": "Title Screen",
+            "backgroundId": "b02dd0d0-c225-445a-aec7-36ea33404290",
             "width": 20,
             "height": 18,
-            "type": "PLATFORM",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [
@@ -4007,7 +4007,34 @@
             "y": 65,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "fb52d93b-d378-4f41-a06f-8a6b3c379576",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": 4
+                                },
+                                "id": "f0ff4613-527c-4737-84ca-fde016cc48b2"
+                            }
+                        ]
+                    },
+                    "id": "f479ffa4-a66f-4703-ad5c-18dd048e01ab"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -4025,6 +4052,16 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "tileColors": []
+        },
+        {
+            "id": "b02dd0d0-c225-445a-aec7-36ea33404290",
+            "name": "title",
+            "symbol": "bg_title",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "title.png"
         },
         {
             "id": "ef2c4ef8-a5a4-4c9c-bb16-12ab64485f78",
@@ -5791,15 +5828,15 @@
         }
     ],
     "settings": {
-        "startSceneId": "fb52d93b-d378-4f41-a06f-8a6b3c379576",
-        "startX": 13,
-        "startY": 22,
+        "startSceneId": "eca8480e-bda0-4103-af23-f3b2b54776a8",
+        "startX": 27,
+        "startY": 24,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 196,
+        "worldScrollX": 191,
         "worldScrollY": 33,
         "zoom": 100,
         "customColorsEnabled": true,
